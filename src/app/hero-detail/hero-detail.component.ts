@@ -7,7 +7,7 @@ import { Hero } from '../hero';
   styleUrls: ['./hero-detail.component.sass']
 })
 export class HeroDetailComponent implements OnInit {
-  @Input() hero: Hero
+  @Input() hero: Hero;
   constructor() { }
 
   ngOnInit() {
